@@ -7,9 +7,10 @@
     height: 100vh;
     overflow: hidden;
 } */
-.img-login{
-background-size: cover;
-background-attachment: fixed;
-background-repeat: no-repeat;
-background-position: center;
+body{
+    background-image: url("https://expertphotography.b-cdn.net/wp-content/uploads/2020/07/social-media-for-photographers-follow-1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
 }
