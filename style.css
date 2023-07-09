@@ -1,16 +1,83 @@
-/* *{
-    margin: 0;
-    padding: 0;
-}
-.container{
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-} */
 body{
     background-image: url("https://expertphotography.b-cdn.net/wp-content/uploads/2020/07/social-media-for-photographers-follow-1.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
+    margin: 0;
+    padding: 0;
 }
+.img-border{
+    width: 800px;
+    height: 500px;
+    border: 1px solid rgba(0, 0,0, 0);
+    background-color: rgba(0, 0,0, 0.3);
+    /* opacity: 30%; */
+    margin-left: 550px;
+    margin-top: 250px;
+    text-align: center;
+    box-shadow: 1px #000000;
+}
+.img-border>h2{
+    color: rgb(255, 255, 255);
+    margin: 30px 0 50px 0;
+    font-size: 40px;
+}
+/* .type{
+    margin-left:  600px; 
+    margin-top: -450px;
+    display: block;
+    width: 50%;
+    position: relative;
+    transform: translateY(-50%);
+} */
+.inputbox1 {
+    width: 180px;
+    padding: 5px;
+    border: 1px solid #b1b1b1;
+    border-radius: 5px;
+    margin: 0 0 2rem;
+    background: url(https://img.icons8.com/?size=512&id=34105&format=png);
+    background-repeat: no-repeat;
+    background-size: 23px;
+    padding-left: 23px;
+    color: #000000;
+    background-color: #ffffff;
+  }
+  .inputbox2{
+    width: 180px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 0 0.4rem;
+    background: url(https://img.icons8.com/?size=512&id=3312&format=png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding-left: 23px;
+    color: #000000;
+    background-color: #ffffff;
+    display: block;
+    margin-left: 298px;
+    
+  }
+  h2{
+    color: black;
+  }
+  .checkbox{
+    display: inline;
+    color: #ffffff;
+    margin-right: 90px;
+    font-size: 11px;
+    
+  }
+  .btn-log{
+    width: 200px;
+    height: 35px;
+    background-color: dodgerblue;
+    color: #ffffff;
+    display: block;
+    margin: 20px  0 0 300px;
+    border-radius: 10px;
+    font-size: 16px;
+    border-color:dodgerblue ;
+  }
